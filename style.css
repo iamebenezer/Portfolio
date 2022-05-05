@@ -118,6 +118,7 @@ a, a:hover, a:focus {
   right: 0;
   background: #ffffff;
   -webkit-transform: scaleX(1);
+  color: #000;
   transform: scaleX(1);
   -webkit-transform-origin: 50%;
   transform-origin: 50%;
@@ -129,7 +130,7 @@ a, a:hover, a:focus {
   transition-timing-function: ease-out;
 }
 .hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active {
-  color: white;
+  color: rgb(0, 0, 0);
   
 }
 .hvr-shutter-in-horizontal:hover:before, .hvr-shutter-in-horizontal:focus:before, .hvr-shutter-in-horizontal:active:before {
